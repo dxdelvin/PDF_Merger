@@ -14,8 +14,8 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, "./template/index.html"))
 });
 
-app.post('/merge', upload.any("pdfs", 5), async (req, res) => {
-  let d = await mergeIt(path.join(__dirname, req.files[0].path), req.files[1].path, req.files[2].path, req.files[3].path, req.files[4].path)
+app.post('/merge', upload.any("pdfs", 2), async (req, res) => {
+  let d = await mergeIt(path.join(__dirname, req.files[0].path), req.files[1].path)
 
   res.redirect(`https://testfile.dxdelvin.repl.co/static/public/${d}`)
 })

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Homepage</title>
+</head>
+<body>
+  <nav class="flex align-center justify-center flex-column">
+    <h1>MergeX Tools</h1>
+    <p>The Best Tool to Merge Your PDF Documemts</p>
+  </nav>
+  <section class="main-section">
+    <form method="post" enctype="multipart/form-data" action="/merge" class="flex align-center justify-center flex-column" action="">
+      <label for="pdfs">Enter PDF You Want To Merge: </label>
+      <input name="pdfs" type="file" required multiple accept=".pdf">
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+</body>
+</html>

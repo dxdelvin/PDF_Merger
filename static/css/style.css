@@ -1,0 +1,83 @@
+body,html{
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}
+
+nav h1{
+  color:#ededed;
+  font-size:1.5rem;
+  margin-bottom:10px;
+}
+
+nav p{
+  font-size:.8rem;
+  color:#ededed;
+  margin:0 0 10px 0;
+}
+
+nav{
+  background:#486ba3;
+  padding:10px 5px;
+  box-shadow: 0px 3px 2px 0px #2c4772;
+}
+
+.main-section{
+  background:#ededed;
+  height:300px;
+  color: #2c4772;
+  padding:50px 25px;
+}
+
+form label{
+  font-size:1.5rem;
+  margin-bottom:.5rem;
+}
+
+input[type="file" i]{
+  margin-left:2rem;
+}
+
+input[type="submit" i]{
+  margin:.5rem;
+  padding:.5rem 1rem;
+  color:#ededed;
+  border-radius:2px;
+  border:none;
+  background:#486ba3;
+  box-shadow:1px 2px 1px 0px#2c4772;
+}
+input[type="submit" i]:active{
+  transform:translateY(2px);
+  transition:transform ease .8s;
+}
+
+input[type="submit" i]:hover{
+  background:#2c4772;
+  color:white;
+  border-radius:6px;
+  box-shadow:0px 0px 0px 0px#2c4772; 
+  transition: background ease .6s,border-radius ease .5s,color ease-out .4s, box-shadow ease-in .3s;
+}
+
+.flex{
+  display:flex;
+}
+
+.align-center{
+  align-items:center;
+}
+
+.justify-center{
+  justify-content:center;
+}
+
+.flex-row{
+  flex-direction:row;
+}
+
+.flex-column{
+  flex-direction:column;
+}

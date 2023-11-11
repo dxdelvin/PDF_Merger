@@ -16,12 +16,12 @@ Follow these steps to get the project up and running on your local machine:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/MergeX-Tools.git
+   git clone https://github.com/dxdelvin/PDF_Merger.git
    ```
 
 2. **Navigate to the Project Directory:**
    ```bash
-   cd MergeX-Tools
+   cd MergeX-Tools (// or whatever Folder Name You have Given!)
    ```
 
 3. **Install Dependencies:**
